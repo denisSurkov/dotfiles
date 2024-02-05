@@ -1,0 +1,7 @@
+<templateSet group="PytestDjango">
+  <template name="pytestdjango" value="import pytest&#10;&#10;pytestmark = [&#10;    pytest.mark.django_db,&#10;]&#10;&#10;&#10;$END$&#10;" description="pytest wirth django_db marker" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

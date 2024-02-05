@@ -1,0 +1,32 @@
+<templateSet group="Pytest">
+  <template name="@pyf" value="@pytest.fixture&#10;def " description="pytest fixutre with def" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="dtest" value="def test_" description="def test_" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="@pyufi" value="@pytest.mark.usefixtures('$END$')" description="pytest use fixture" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="@pymparam" value="@pytest.mark.parametrize(('$END$',))" description="pytest mark parametrize" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="@pymft" value="@pytest.mark.freeze_time('$END$')" description="pytest mark freezetime" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="wipyra" value="with pytest.raises($END$):&#10;    pass" description="with pytest raises" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

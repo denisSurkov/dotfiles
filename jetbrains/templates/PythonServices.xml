@@ -1,0 +1,8 @@
+<templateSet group="PythonServices">
+  <template name="dataclassservice" value="from dataclasses import dataclass&#10;&#10;from app.services import BaseService&#10;&#10;@dataclass&#10;class $CLASS_NAME$(BaseService):&#10;&#9;def act(self):&#10;&#9;&#9;$END$&#10;&#9;&#9;..." description="Create class *(BaseService):" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

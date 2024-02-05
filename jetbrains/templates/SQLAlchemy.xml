@@ -1,0 +1,9 @@
+<templateSet group="SQLAlchemy">
+  <template name="clsBase" value="class $ModelName$(Base):&#10;&#9;__tablename__ = &quot;$TableName$&quot;&#10;&#9;&#10;&#9;id = Column(Integer, primary_key=True)&#10;&#9;$END$" description="new model" toReformat="true" toShortenFQNames="true">
+    <variable name="ModelName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TableName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
